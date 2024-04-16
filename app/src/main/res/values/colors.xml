@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secret_society">#484D5A</color>
+    <color name="anecdote">#2E2E35</color>
+    <color name="velvet_cloak">#372930</color>
+    <color name="dusty_rose">#DCAE96</color>
+    <color name="gunmetal">#1D2E28</color>
+</resources>

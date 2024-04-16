@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="TITLE_WIDTH">200sp</dimen>
+    <dimen name="DUE_DATE_WIDTH">140sp</dimen>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_bg"
+    style="@style/actMan">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_bg"
+        style="@style/actMan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/addAct"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/taskTitle"
+            android:inputType="text"
+            android:textColorHint="#212121"
+            tools:ignore="VisualLintTextFieldSize"
+            android:autofillHints="" />
+
+
+        <CheckBox
+            android:id="@+id/markTaskDone"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/taskStatusDone"/>
+
+        <Button
+            android:id="@+id/taskTime"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_bg"
+            android:text="@string/setTime"
+            style="@style/onactMan"
+            app:icon="@drawable/calender"
+            app:iconGravity="end" />
+
+        <Button
+            android:id="@+id/addExp"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            style="@style/onactMan"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="310dp"
+            android:text="@string/sub" android:textSize="24sp"
+            android:textStyle="bold"
+            android:contentDescription="@string/addAct"
+            tools:ignore="VisualLintButtonSize" />
+
+    </FrameLayout>
+</FrameLayout>

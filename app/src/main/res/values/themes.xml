@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ActivityManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundColor">@color/dusty_rose</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ActivityManager" parent="Base.Theme.ActivityManager" />
+    <style name="actMan" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="backgroundTint">@color/dusty_rose</item>
+        <item name="colorPrimary">@color/velvet_cloak</item>
+        <item name="background">@color/velvet_cloak</item>
+        <item name="android:background">@color/dusty_rose</item>
+        <item name="android:backgroundTint">@color/dusty_rose</item>
+    </style>
+
+    <style name="onactMan" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/velvet_cloak</item>
+        <item name="backgroundTint">@color/velvet_cloak</item>
+        <item name="android:backgroundTint">@color/velvet_cloak</item>
+    </style>
+</resources>
